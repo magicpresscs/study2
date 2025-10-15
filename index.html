@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CampusLink</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="cl-header">
+      <div class="cl-header__left">
+        <a href="#/" class="cl-logo">CampusLink</a>
+      </div>
+      <div class="cl-header__center">
+        <input id="global-search" type="search" placeholder="스터디/동아리를 검색해보세요!" />
+      </div>
+      <div class="cl-header__right">
+        <button id="btn-login" class="btn ghost">로그인</button>
+        <button id="btn-register" class="btn ghost">회원가입</button>
+        <button id="btn-create" class="btn primary">모집글 등록</button>
+      </div>
+    </header>
+
+    <main id="app"></main>
+
+    <footer class="cl-footer">
+      <div class="cl-container">
+        <nav class="footer-links">
+          <a href="#/about">서비스 소개</a>
+          <a href="#/terms">이용약관</a>
+          <a href="#/privacy">개인정보처리방침</a>
+        </nav>
+        <p class="copyright">© 2025 CampusLink</p>
+      </div>
+    </footer>
+
+    <div id="modal-root"></div>
+
+    <script src="./src/app.js" type="module"></script>
+  </body>
+  </html>
+
+
+
+

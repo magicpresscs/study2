@@ -1,0 +1,30 @@
+# 의존성
+node_modules
+*.log
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# 환경 변수 (민감 정보)
+.env
+.env.local
+.env.*.local
+
+# 빌드 결과
+dist
+dist-ssr
+
+# 에디터
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
